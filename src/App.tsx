@@ -8,6 +8,8 @@ import { StatusBar } from 'react-native';
 const STYLES = ['default', 'dark-content', 'light-content'] as const;
 
 const App: FC = () => {
+    const [isLoading, setIsLoading] = useState(false);
+
     const clear = () => {
         console.log('clearing user');
     };
@@ -15,7 +17,7 @@ const App: FC = () => {
     return (
         <ThemeProvider theme={theme}>
             <StatusBar barStyle={STYLES[2]} />
-            <StroreContext.Provider value={{ clear }}>
+            <StroreContext.Provider value={{ clear, isLoading, setIsLoading }}>
                 <Router />
             </StroreContext.Provider>
         </ThemeProvider>

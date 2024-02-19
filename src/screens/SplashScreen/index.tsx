@@ -17,7 +17,7 @@ const Splash: FC = () => {
 
     const _GetInfoDevice = async () => {
         try {
-            const result: string = Platform.OS === 'ios' ? await _GetInfoIOS() : await _GetInfoAndroid()
+            const result: string = Platform.OS === 'ios' ? await _GetInfoIOS() : await _GetInfoAndroid();
             //atualiza o estado Device convertendo String para JSON
             setDevice(JSON.parse(result));
         } catch (error) {
@@ -34,7 +34,7 @@ const Splash: FC = () => {
     const _GetInfoAndroid = async () => {
         //recebe as informações do dispositivo Android um objeto em string
         const result: string = await NativeModules.InfoDeviceAndroid.getInfo();
-        return result
+        return result;
     };
 
     useEffect(() => {
@@ -49,7 +49,7 @@ const Splash: FC = () => {
             <Header />
             <Loading />
             <TextInfoHeader>
-                Versão: {device?.appVersion} - {Platform.OS === 'ios' ? "IOS" : "Android"}: {device?.osVersion} - {device?.modelName}
+                Versão: {device?.appVersion} - {Platform.OS === 'ios' ? 'IOS' : 'Android'}: {device?.osVersion} - {device?.modelName}
             </TextInfoHeader>
         </Container>
     );

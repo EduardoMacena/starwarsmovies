@@ -12,6 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1647E8A22B83B4090000AA79 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 1647E8A12B83B4080000AA79 /* fonts */; };
 		169B1F472B8192BB00D47ABB /* InfoDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169B1F462B8192BB00D47ABB /* InfoDevice.swift */; };
 		169B1F492B81947600D47ABB /* InfoDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 169B1F482B81947600D47ABB /* InfoDevice.m */; };
 		7699B88040F8A987B510C191 /* libPods-StarWarsMovies-StarWarsMoviesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-StarWarsMovies-StarWarsMoviesTests.a */; };
@@ -38,6 +39,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = StarWarsMovies/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = StarWarsMovies/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = StarWarsMovies/main.m; sourceTree = "<group>"; };
+		1647E8A12B83B4080000AA79 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		169B1F452B8192BB00D47ABB /* StarWarsMovies-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarWarsMovies-Bridging-Header.h"; sourceTree = "<group>"; };
 		169B1F462B8192BB00D47ABB /* InfoDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDevice.swift; sourceTree = "<group>"; };
 		169B1F482B81947600D47ABB /* InfoDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoDevice.m; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				1647E8A12B83B4080000AA79 /* fonts */,
 				13B07FAE1A68108700A75B9A /* StarWarsMovies */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* StarWarsMoviesTests */,
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1647E8A22B83B4090000AA79 /* fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);

@@ -1,14 +1,14 @@
 import { FC } from 'react';
-import HCenter from '../../atoms/HCenter';
+import VCenter from '../../atoms/VCenter';
 import Loader from '../../atoms/Loader';
 import TextInfoHeader from '../../atoms/TextInfoHeader';
 
 const Loading: FC = () => {
     return (
-        <HCenter>
+        <VCenter>
             <Loader />
             <TextInfoHeader>Carregando...</TextInfoHeader>
-        </HCenter>
+        </VCenter>
     );
 };
 
