@@ -46,7 +46,7 @@ const Splash: FC = () => {
 
     return (
         <Container>
-            <Header />
+            <Header type='default' />
             <Loading />
             <TextInfoHeader>
                 Versão: {device?.appVersion} - {Platform.OS === 'ios' ? 'IOS' : 'Android'}: {device?.osVersion} - {device?.modelName}

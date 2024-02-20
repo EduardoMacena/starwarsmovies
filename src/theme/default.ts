@@ -8,6 +8,7 @@ export default {
 
         TEXT_PRIMARY: '#0F172A',
         TEXT_SECUNDARY: '#64748B',
+        TEXT_INFO: '#000000',
 
         TEXT_LABEL: '#475569',
 

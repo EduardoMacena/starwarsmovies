@@ -1,9 +1,10 @@
-import { FC } from 'react';
+import { FC, PropsWithChildren } from 'react';
 import { TextH } from './styles';
-import { TextProps } from 'react-native';
+import { HeaderProps } from '../../molecules/Header';
 
-const TextHeader: FC<TextProps> = ({ children }) => {
-    return <TextH>{children}</TextH>;
+const TextHeader: FC<HeaderProps> = (props: PropsWithChildren<HeaderProps>) => {
+    const { children, ...res } = props;
+    return <TextH {...res}>{children}</TextH>;
 };
 
 export default TextHeader;

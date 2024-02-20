@@ -1,13 +1,14 @@
 import { createNavigationContainerRef, StackActions, CommonActions } from '@react-navigation/native';
 
 enum ScreensENUN {
-     'Splash',
-    'Home'
+    'Splash',
+    'Home',
+    'Dashboard'
 }
 
 /**
  * This is equivalent to:
- * type ScreensStrings = 'SPLASH' | 'HOME' ;
+ * type ScreensStrings = 'Splash' | 'Home' | Dashboard;
  */
 type ScreensStrings = keyof typeof ScreensENUN;
 
